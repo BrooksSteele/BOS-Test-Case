@@ -68,7 +68,7 @@ def load_module(name, path):
 BASE     = os.path.dirname(os.path.abspath(__file__))
 PARSER   = load_module("parse_t12_xlsx",       os.path.join(BASE, "parse_t12_xlsx.py"))
 POP      = load_module("populate_budget_model", os.path.join(BASE, "populate_budget_model.py"))
-TEMPLATE = os.path.join(BASE, "Budget_Model.xlsx")
+TEMPLATE = os.path.join(BASE, "Budget Model - vTEST.xlsx")
 
 # ── Rent roll parser ──────────────────────────────────────────────────────────
 def parse_date_val(v):
